@@ -12,3 +12,6 @@
    git remote add origin https://github.com/bigdataXiang/GitNote.git
    git push -u origin master
 ```  
+
+#git命令的含义
++ git 
