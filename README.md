@@ -36,3 +36,9 @@ git init [project-name] #新建一个目录，将其初始化为Git代码库
 git clone [url] #下载一个项目和它的整个代码历史
 
 git config： http://blog.csdn.net/wirelessqa/article/details/8572928
+
+# 如何让从github上clone下来的项目在idea中正常运行？
++ 首先在src文件夹右击，选择【make directory as sourceroot】；
++ 在【project structure】中的【project】中设置【project compiler output】
+  的路径；
++ 在【modules】中的【path】设置compiler output的相应路径即可
